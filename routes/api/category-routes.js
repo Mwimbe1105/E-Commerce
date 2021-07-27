@@ -34,16 +34,16 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: ['id', 'category_name'],
+    attributes: ['id', 'categoryName'],
     include: [
       {
         model: Product,
         attributes: [
           'id',
-          'product_name',
+          'productName',
           'price',
           'stock',
-          'category_id'
+          'categoryID'
         ]
       }
     ]
@@ -64,7 +64,7 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   // create a new category
   Category.create({
-    category_name: req.body.category_name
+    categoryName: req.body.categoryName
   })
   .then(dbCategoryData => res.json(dbCategoryData))
   .catch(err => {
@@ -77,7 +77,7 @@ router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update(
     {
-      category_name: req.body.category_name
+      categoryName: req.body.categoryName
     },
     {
       where: {
