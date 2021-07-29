@@ -1,1 +1,2 @@
 # E-Commerce
+unfortunatly i have some errors and dont have enough time to debug them, i will come back to it on my own time and figure it out. maybe get my debugger working and fix it that  way too. I do however want to give a special shout out to Jason smith from my cohort for spending a monday evening with me and walking me through alot of these and explaining them better to me. On super team mate right there. Thank you hopefuly i can update and finish this.

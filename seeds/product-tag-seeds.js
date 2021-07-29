@@ -2,52 +2,52 @@ const { ProductTag } = require('../models');
 
 const productTagData = [
   {
-    product_id: 1,
-    tag_id: 6,
+    productID: 1,
+    TagId: 6,
   },
   {
-    product_id: 1,
-    tag_id: 7,
+    productID: 1,
+    TagId: 7,
   },
   {
-    product_id: 1,
-    tag_id: 8,
+    productID: 1,
+    TagId: 8,
   },
   {
-    product_id: 2,
-    tag_id: 6,
+    productID: 2,
+    TagId: 6,
   },
   {
-    product_id: 3,
-    tag_id: 1,
+    productID: 3,
+    TagId: 1,
   },
   {
-    product_id: 3,
-    tag_id: 3,
+    productID: 3,
+    TagId: 3,
   },
   {
-    product_id: 3,
-    tag_id: 4,
+    productID: 3,
+    TagId: 4,
   },
   {
-    product_id: 3,
-    tag_id: 5,
+    productID: 3,
+    TagId: 5,
   },
   {
-    product_id: 4,
-    tag_id: 1,
+    productID: 4,
+    TagId: 1,
   },
   {
-    product_id: 4,
-    tag_id: 2,
+    productID: 4,
+    TagId: 2,
   },
   {
-    product_id: 4,
-    tag_id: 8,
+    productID: 4,
+    TagId: 8,
   },
   {
-    product_id: 5,
-    tag_id: 3,
+    productID: 5,
+    TagId: 3,
   },
 ];
 
